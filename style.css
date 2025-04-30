@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f7fa;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e1e5ee;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    border-bottom: 2px solid #a5b8d1;
+    padding-bottom: 8px;
+    margin: 25px 0 15px;
+    font-weight: 500;
+}
+
+[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.8em;
+}
+
+a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 8px;
+}
+
+address ul {
+    list-style: none;
+}
+
+address li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+main section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+article h3 {
+    color: #34495e;
+    font-weight: 500;
+}
+
+article p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
